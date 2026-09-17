@@ -1,6 +1,6 @@
 # Echt Learning Solutions
 
-Marketing single-page site for **Echtian Contents Pvt. Ltd. (Echt)** — built with React, Vite, TypeScript, and Tailwind CSS.
+Echt Agency for Digital Businesses — marketing single-page site for **Echtian Contents Pvt. Ltd. (Echt)**, built with React, Vite, TypeScript, and Tailwind CSS.
 
 **Live site:** https://alee985.github.io/Echt_Agency/
 
