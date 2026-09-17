@@ -1,0 +1,11 @@
+[build]
+  base = "web"
+  command = "npm run build"
+  publish = "dist"
+
+# SPA fallback — client-side routing (anchor-link sections) still needs
+# any deep link/refresh to resolve to index.html.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
