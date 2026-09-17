@@ -1,0 +1,1255 @@
+# QUILLHIVE — COMPLETE WEBSITE BUILD SPECIFICATION
+
+You are a senior product designer, UX strategist, brand designer, copywriter, and expert full-stack frontend engineer.
+
+Your task is to design and build a **complete, production-quality website for Quillhive**, a modern full-service digital agency.
+
+Do NOT create a generic template.
+
+The website should feel like a real agency that could confidently launch today and start acquiring clients.
+
+---
+
+# 1. ABOUT THE BRAND
+
+## Brand Name
+
+**Quillhive**
+
+Tagline/theme:
+
+**Where ideas find their hive.**
+
+Quillhive is a full-service digital agency combining technology, creativity, content, marketing, and human support under one roof.
+
+The brand should communicate:
+
+* Creativity
+* Technology
+* Reliability
+* Human connection
+* Modern digital expertise
+* Professionalism
+* Energy
+* Collaboration
+* Attention to detail
+
+The name "Quillhive" combines:
+
+* **Quill** → writing, storytelling, creativity, communication
+* **Hive** → collaboration, productivity, community, collective intelligence
+
+The visual identity should subtly communicate this concept without becoming overly literal or childish.
+
+Avoid making the website look like a cartoon bee website.
+
+The bee/hive concept should be used intelligently as a subtle brand metaphor.
+
+---
+
+# 2. SERVICES
+
+Quillhive provides:
+
+### Technology
+
+* Web Development
+* App Development
+
+### Creative
+
+* Graphic Design
+* Branding
+* Character Design
+* Illustration
+
+### Marketing & Content
+
+* Social Media Management
+* Copywriting
+* Meta Ads
+* Creative Campaign Assets
+
+### Business Support
+
+* Virtual Assistance
+* Customer Service
+* Executive Support
+
+The website should present these services as a connected ecosystem rather than a random list of unrelated services.
+
+---
+
+# 3. TECHNOLOGY STACK
+
+Build the website using:
+
+* Next.js
+* TypeScript
+* Tailwind CSS
+* shadcn/ui where useful
+* Framer Motion / Motion for animations
+* Lucide icons
+* Modern component architecture
+* Responsive design
+* Semantic HTML
+* Accessible UI
+
+Use the latest stable versions available in the environment.
+
+If the project already has an existing setup, inspect it first and work with the existing architecture instead of unnecessarily replacing it.
+
+Do not introduce unnecessary dependencies.
+
+---
+
+# 4. CORE DESIGN DIRECTION
+
+The website should feel:
+
+**Premium + Creative + Modern + Confident + Human**
+
+Reference the quality level of modern digital product/creative agencies.
+
+Do NOT copy any existing website.
+
+The design should have:
+
+* Strong typography
+* Large editorial headlines
+* Generous whitespace
+* Interesting visual compositions
+* Subtle motion
+* High-quality cards
+* Layered sections
+* Strong CTA hierarchy
+* Modern navigation
+* Beautiful hover states
+* Smooth scrolling
+* Excellent mobile experience
+
+The site should NOT look like:
+
+* A generic SaaS landing page
+* A template marketplace website
+* A cheap Fiverr-style agency
+* An overly corporate consulting company
+* An overly colorful children's brand
+
+---
+
+# 5. BRAND VISUAL LANGUAGE
+
+Create a visual language around the concept:
+
+**Ideas → Collaboration → Creation → Growth**
+
+Use subtle references to:
+
+* Hive structures
+* Honeycomb geometry
+* Connected nodes
+* Quill / pen strokes
+* Creative sketches
+* Digital grids
+* Organic shapes
+* Editorial typography
+
+These elements should remain sophisticated and minimal.
+
+Do not put bees everywhere.
+
+Do not use cheesy bee illustrations unless they genuinely improve the design.
+
+---
+
+# 6. COLOR SYSTEM
+
+Create a sophisticated agency color palette.
+
+Primary direction:
+
+* Deep near-black / charcoal
+* Warm off-white / ivory
+* Honey/golden accent
+* One supporting modern accent color if needed
+
+The golden/honey accent should be used strategically for:
+
+* CTAs
+* Highlights
+* Hover states
+* Decorative elements
+* Important keywords
+
+Avoid excessive yellow.
+
+The website must maintain excellent contrast and accessibility.
+
+Define all colors as reusable design tokens.
+
+---
+
+# 7. TYPOGRAPHY
+
+Use a premium modern typography combination.
+
+The typography should have:
+
+* Strong display headings
+* Clean readable body text
+* Distinctive section titles
+* Excellent hierarchy
+
+Large headings should feel editorial and confident.
+
+Example visual direction:
+
+"WE BUILD
+BRANDS THAT
+BUZZ."
+
+But create your own original copy throughout the site.
+
+Do not overuse all caps.
+
+---
+
+# 8. WEBSITE STRUCTURE
+
+Create the following pages:
+
+## Main Pages
+
+1. Home
+2. Services
+3. Work / Portfolio
+4. About
+5. Contact
+
+## Optional supporting pages
+
+6. Individual Service Detail pages
+7. Individual Case Study pages
+8. Privacy Policy
+9. Terms & Conditions
+
+Use dynamic routing where appropriate.
+
+---
+
+# 9. GLOBAL NAVIGATION
+
+Create a premium sticky navigation.
+
+Desktop:
+
+Logo:
+**Quillhive**
+
+Navigation:
+
+* Home
+* Services
+* Work
+* About
+* Contact
+
+Primary CTA:
+
+**Let's Work Together**
+
+The navigation should:
+
+* Become slightly smaller when scrolling
+* Have a subtle backdrop/blur
+* Animate smoothly
+* Work beautifully on mobile
+
+Mobile navigation should use a polished animated menu.
+
+---
+
+# 10. HOMEPAGE
+
+The homepage should be the strongest page on the website.
+
+Structure:
+
+---
+
+## HERO
+
+Create a visually impressive hero section.
+
+Potential messaging direction:
+
+**Ideas need a hive.**
+
+or
+
+**Where bold ideas come to life.**
+
+or
+
+**We turn ideas into digital momentum.**
+
+Do NOT simply copy these examples.
+
+Create a strong original headline.
+
+Supporting copy should clearly explain what Quillhive does.
+
+Example concept:
+
+"We bring development, design, content, marketing, and business support together to help ambitious brands build, launch, and grow."
+
+CTA buttons:
+
+**Start a Project**
+
+and
+
+**Explore Our Work**
+
+Hero should include an interesting visual system.
+
+Possible visual:
+
+A dynamic abstract hive/grid composition where elements connect and move subtly.
+
+It could combine:
+
+* Honeycomb geometry
+* Typography
+* Small floating creative objects
+* Code fragments
+* Design shapes
+* Brand elements
+
+It should feel premium rather than gimmicky.
+
+---
+
+# 11. TRUST / INTRO SECTION
+
+Immediately after the hero, introduce the agency.
+
+Create a strong statement such as:
+
+**One hive. Every digital capability you need.**
+
+Explain that Quillhive combines multiple disciplines so clients don't have to coordinate multiple disconnected vendors.
+
+Highlight:
+
+* Strategy
+* Design
+* Development
+* Content
+* Marketing
+* Support
+
+Use an elegant visual layout.
+
+---
+
+# 12. SERVICES SECTION
+
+Create a visually impressive services section.
+
+Instead of simple cards stacked in a boring grid, use an interactive layout.
+
+Organize services into:
+
+### BUILD
+
+Web Development
+App Development
+
+### CREATE
+
+Graphic Design
+Branding
+Character Design
+Illustration
+
+### GROW
+
+Social Media Management
+Copywriting
+Meta Ads
+Creative Campaign Assets
+
+### SUPPORT
+
+Virtual Assistance
+Customer Service
+Executive Support
+
+Each service should have:
+
+* Icon
+* Short description
+* Hover animation
+* Arrow
+* Link to service detail page
+
+On hover, cards should subtly transform.
+
+Do not over-animate.
+
+---
+
+# 13. WHY QUILLHIVE
+
+Create a section explaining why clients should choose Quillhive.
+
+Potential themes:
+
+### One Team, Many Skills
+
+Instead of managing multiple freelancers/agencies, clients work with one coordinated team.
+
+### Strategy Meets Execution
+
+Ideas are not enough. We help turn them into actual digital products and campaigns.
+
+### Creative + Technical
+
+Design and engineering work together instead of existing in separate silos.
+
+### Built Around Your Goals
+
+We don't sell random services. We solve business problems.
+
+### Human Support
+
+Clients work with people who understand the context behind the work.
+
+Create visually compelling layouts instead of generic icon cards.
+
+---
+
+# 14. PROCESS SECTION
+
+Create a clear 4–5 step process.
+
+For example:
+
+01 — DISCOVER
+Understand the business, audience, goals, and problem.
+
+02 — STRATEGIZE
+Define the right creative and technical direction.
+
+03 — CREATE
+Design, write, develop, and produce.
+
+04 — REFINE
+Review, test, improve, and polish.
+
+05 — LAUNCH & GROW
+Launch the work and continue optimizing.
+
+Use a visual timeline or connected hive-inspired system.
+
+---
+
+# 15. PORTFOLIO / WORK SECTION
+
+Create a premium portfolio section.
+
+Since real Quillhive projects may not yet be available, DO NOT fabricate real clients, revenue numbers, testimonials, or performance statistics.
+
+Instead create realistic placeholder case studies clearly labeled as:
+
+**Concept Project**
+
+or
+
+**Sample Work**
+
+Create several example project categories:
+
+* Brand Identity
+* Website
+* Mobile App
+* Social Media Campaign
+* Illustration
+* Marketing Campaign
+
+Portfolio cards should contain:
+
+* Project name
+* Category
+* Short description
+* Visual
+* View Case Study CTA
+
+Use high-quality abstract visual placeholders if actual project images are unavailable.
+
+Structure the code so real portfolio content/images can easily be replaced later.
+
+---
+
+# 16. CASE STUDY PAGE
+
+Create a reusable case-study template.
+
+Include:
+
+* Project hero
+* Client/project overview
+* Challenge
+* Strategy
+* Creative direction
+* Design
+* Development
+* Results
+* Gallery
+* Technologies/tools
+* Next project
+
+Do not invent actual business results.
+
+Use clearly marked placeholder fields where real data is required.
+
+---
+
+# 17. ABOUT PAGE
+
+Create a compelling About page.
+
+The story should communicate:
+
+Quillhive exists because modern businesses increasingly need technology, creativity, marketing, content, and support to work together.
+
+Instead of positioning Quillhive as simply another agency, position it as:
+
+**A collaborative digital hive built around turning ideas into outcomes.**
+
+Include:
+
+* Our story
+* Our philosophy
+* What we believe
+* How we work
+* Capabilities
+* Team section
+
+If real team members have not been provided, DO NOT invent people.
+
+Use placeholder team slots that are easy to replace.
+
+---
+
+# 18. SERVICES PAGE
+
+Create a comprehensive Services page.
+
+Start with a strong headline.
+
+Then display all services with detailed explanations.
+
+For every service include:
+
+* What we do
+* What problem it solves
+* What is included
+* Typical deliverables
+* Who it is for
+* CTA
+
+Example:
+
+## Web Development
+
+Build fast, scalable, responsive websites and web applications designed around your business goals.
+
+Potential deliverables:
+
+* Business websites
+* Landing pages
+* Web applications
+* E-commerce
+* CMS integrations
+* API integrations
+* Performance optimization
+
+Do the same for every major service category.
+
+---
+
+# 19. CONTACT PAGE
+
+Create a high-converting contact page.
+
+Headline direction:
+
+**Have an idea? Let's build it.**
+
+Include a beautiful project inquiry form.
+
+Fields:
+
+* Name
+* Email
+* Company
+* Service needed
+* Budget range
+* Project description
+* Timeline
+* How did you hear about us?
+
+Service dropdown:
+
+* Web Development
+* App Development
+* Branding
+* Graphic Design
+* Illustration
+* Social Media
+* Copywriting
+* Meta Ads
+* Creative Campaign
+* Virtual Assistance
+* Customer Service
+* Executive Support
+* Something Else
+
+Budget options should be editable.
+
+Do not force users to provide unnecessary information.
+
+Include:
+
+**Send Project Inquiry**
+
+Add client-side validation.
+
+Show:
+
+* Loading state
+* Success state
+* Error state
+
+For now, make the form architecture ready to connect to an API/email service.
+
+Do not pretend the form actually sends emails if backend integration has not been configured.
+
+---
+
+# 20. FOOTER
+
+Create a premium footer.
+
+Include:
+
+Quillhive logo
+
+Short brand statement.
+
+Navigation:
+
+* Home
+* Services
+* Work
+* About
+* Contact
+
+Services
+
+* Development
+* Design
+* Marketing
+* Support
+
+Social links:
+
+* Instagram
+* LinkedIn
+* Facebook
+* Other relevant platforms
+
+Use placeholders/config variables where actual social URLs have not been provided.
+
+Newsletter signup can be included if appropriate, but don't build fake functionality.
+
+Bottom:
+
+© 2026 Quillhive. All rights reserved.
+
+Privacy Policy
+Terms & Conditions
+
+---
+
+# 21. MICRO-INTERACTIONS
+
+Use motion carefully.
+
+Implement:
+
+* Page entrance animations
+* Scroll reveal
+* Hover transitions
+* Button animations
+* Card hover effects
+* Navigation transitions
+* Mobile menu animation
+* Portfolio transitions
+* Subtle background movement
+
+Animations should be:
+
+* Fast
+* Smooth
+* Professional
+* Purposeful
+
+Avoid excessive animation.
+
+Respect:
+
+`prefers-reduced-motion`
+
+---
+
+# 22. CUSTOM VISUAL ELEMENTS
+
+Create reusable Quillhive visual components.
+
+Examples:
+
+* HiveBackground
+* HoneycombGrid
+* FloatingShapes
+* ConnectedNodes
+* QuillStroke
+* AnimatedGradient
+* SectionLabel
+* MagneticButton
+* Marquee
+* ServiceCard
+* ProjectCard
+* ProcessTimeline
+
+These should be reusable and configurable.
+
+Do not create one giant component containing the entire website.
+
+---
+
+# 23. RESPONSIVE DESIGN
+
+The website must work beautifully on:
+
+* Large desktop
+* Desktop
+* Laptop
+* Tablet
+* Mobile
+
+Do not simply shrink desktop layouts.
+
+Mobile should have its own considered layout.
+
+Pay particular attention to:
+
+* Typography
+* Navigation
+* Hero composition
+* Cards
+* Spacing
+* Forms
+* Portfolio
+* Touch targets
+
+Test at common widths.
+
+---
+
+# 24. ACCESSIBILITY
+
+Follow modern accessibility practices.
+
+Include:
+
+* Semantic HTML
+* Proper heading hierarchy
+* Keyboard navigation
+* Visible focus states
+* Accessible buttons
+* Accessible form labels
+* Alt text
+* Good color contrast
+* Reduced motion support
+* ARIA only where necessary
+
+Do not use divs as buttons unnecessarily.
+
+---
+
+# 25. SEO
+
+Implement proper SEO.
+
+Each page should have:
+
+* Unique title
+* Meta description
+* Open Graph metadata
+* Twitter/X metadata
+* Canonical URL configuration
+* Proper headings
+* Semantic structure
+
+Create:
+
+* sitemap
+* robots configuration
+* favicon configuration
+* social sharing metadata
+
+Use:
+
+**Quillhive — Digital Agency**
+
+as the general brand identity.
+
+Create appropriate page-specific metadata.
+
+---
+
+# 26. PERFORMANCE
+
+The website should be production-quality.
+
+Optimize for:
+
+* Fast initial load
+* Minimal JavaScript where possible
+* Optimized images
+* Lazy loading
+* Proper font loading
+* Code splitting
+* Responsive images
+* Good Core Web Vitals
+
+Avoid unnecessary libraries.
+
+---
+
+# 27. CONTENT STRATEGY
+
+The copy should sound like a real modern agency.
+
+Voice:
+
+* Confident
+* Intelligent
+* Creative
+* Human
+* Clear
+* Slightly playful
+* Never arrogant
+
+Avoid generic agency phrases such as:
+
+"We are passionate about delivering innovative solutions."
+
+"Your success is our success."
+
+"We take your business to the next level."
+
+Write distinctive copy.
+
+The copy should focus on client outcomes rather than simply listing services.
+
+---
+
+# 28. CTA STRATEGY
+
+Use clear calls to action throughout the website.
+
+Primary CTA:
+
+**Start a Project**
+
+Secondary CTAs:
+
+**See Our Work**
+
+**Explore Services**
+
+**Talk to Us**
+
+**Let's Build Something**
+
+Do not put a CTA on every single sentence.
+
+---
+
+# 29. CMS / CONTENT ARCHITECTURE
+
+Structure project data so portfolio projects can eventually come from a CMS or database.
+
+For now, use clean local data structures.
+
+For example:
+
+projects.ts
+services.ts
+team.ts
+testimonials.ts
+
+Make content easy to modify without digging through UI components.
+
+---
+
+# 30. COMPONENT ARCHITECTURE
+
+Use a clean structure similar to:
+
+app/
+components/
+layout/
+navigation/
+hero/
+services/
+portfolio/
+about/
+process/
+contact/
+footer/
+ui/
+lib/
+data/
+public/
+
+Keep components:
+
+* Small
+* Reusable
+* Maintainable
+* Typed
+
+Avoid unnecessary abstraction.
+
+---
+
+# 31. PLACEHOLDER ASSET STRATEGY
+
+If actual brand assets are unavailable:
+
+Do not use random low-quality stock images.
+
+Instead create:
+
+* Elegant abstract graphics
+* SVG shapes
+* CSS-based visual systems
+* Gradient compositions
+* Geometric patterns
+* Placeholder project artwork
+
+The website should still look premium before real assets are added.
+
+Make replacing these assets easy.
+
+---
+
+# 32. BRAND LOGO
+
+Create a temporary text-based Quillhive logo using typography and a subtle hive/quill visual treatment.
+
+Do not invent a complicated logo that would be difficult to replace.
+
+Structure the logo component so an actual SVG/logo can later replace it easily.
+
+---
+
+# 33. NO FABRICATION RULE
+
+This is extremely important.
+
+Do NOT fabricate:
+
+* Client names
+* Testimonials
+* Revenue
+* Conversion percentages
+* Number of clients
+* Years of experience
+* Awards
+* Team members
+* Partnerships
+* Certifications
+
+If information is unavailable, use placeholders or omit the claim.
+
+The website must establish trust through presentation and clarity rather than fake social proof.
+
+---
+
+# 34. ADMIN / FUTURE EXTENSIBILITY
+
+Do not build an unnecessary admin dashboard right now.
+
+However, architect the content so it can later be connected to:
+
+* Sanity
+* Contentful
+* Supabase
+* PostgreSQL
+* Headless CMS
+* Email/CRM
+
+without requiring a complete rewrite.
+
+---
+
+# 35. FORM INTEGRATION
+
+Create a clean abstraction for the contact form.
+
+Example:
+
+`submitContactForm()`
+
+Initially it may return a simulated response or route to an API endpoint placeholder.
+
+Clearly separate:
+
+UI
+→ validation
+→ API abstraction
+→ email/CRM integration
+
+Later this can be connected to:
+
+* Resend
+* SendGrid
+* HubSpot
+* Zoho
+* Custom backend
+
+Do not hard-code a third-party service without credentials.
+
+---
+
+# 36. ERROR HANDLING
+
+Create:
+
+* Global error page
+* Not-found page
+* Form errors
+* Loading states
+* Empty portfolio state
+* Image fallback
+* Graceful animation failure
+
+The site should never look broken.
+
+---
+
+# 37. DARK/LIGHT MODE
+
+Prefer a strong default visual mode rather than forcing a theme toggle simply because it is fashionable.
+
+If implementing dark/light mode genuinely improves the design, implement it properly and persist the user's preference.
+
+The default should be the most visually compelling version.
+
+---
+
+# 38. FINAL QUALITY BAR
+
+Before considering the project complete, inspect the website as if you were:
+
+### A potential client
+
+Ask:
+
+"Do I immediately understand what Quillhive does?"
+
+"Does this look trustworthy?"
+
+"Does this feel expensive/premium?"
+
+"Can I quickly understand the services?"
+
+"Do I know what to do next?"
+
+### A designer
+
+Ask:
+
+"Does the layout have hierarchy?"
+
+"Are spacing and typography consistent?"
+
+"Does the visual identity feel unique?"
+
+### A developer
+
+Ask:
+
+"Is the code maintainable?"
+
+"Are components reusable?"
+
+"Is TypeScript properly used?"
+
+"Are there unnecessary dependencies?"
+
+### A mobile user
+
+Ask:
+
+"Does this work comfortably on a phone?"
+
+"Can I navigate it easily?"
+
+"Are buttons easy to tap?"
+
+---
+
+# 39. DEVELOPMENT WORKFLOW
+
+Do not immediately start blindly writing code.
+
+First:
+
+1. Inspect the existing project.
+2. Understand the current setup.
+3. Identify available dependencies.
+4. Establish the design system.
+5. Establish the component architecture.
+6. Build the global layout.
+7. Build the homepage.
+8. Build inner pages.
+9. Implement responsive behavior.
+10. Add animations.
+11. Implement SEO.
+12. Validate accessibility.
+13. Test interactions.
+14. Fix visual inconsistencies.
+15. Run the application.
+16. Inspect the final result.
+17. Fix any errors.
+18. Polish the UI.
+
+If you have access to browser/preview tools, actually inspect the rendered website rather than assuming the implementation looks correct.
+
+---
+
+# 40. IMPORTANT IMPLEMENTATION INSTRUCTION
+
+Do not stop after creating the homepage.
+
+I want the **entire website** implemented.
+
+That means:
+
+* All pages
+* All navigation
+* All responsive layouts
+* All components
+* All animations
+* All forms
+* SEO
+* Error states
+* Empty states
+* Footer
+* Mobile menu
+* Portfolio structure
+* Service pages
+* Case-study structure
+
+Everything should be connected and navigable.
+
+Do not leave major sections as TODOs.
+
+Do not give me pseudocode.
+
+Do not give me a design description instead of implementation.
+
+Build the actual website.
+
+---
+
+# 41. CODE QUALITY
+
+Use:
+
+* TypeScript types
+* Clean naming
+* Reusable components
+* Minimal duplication
+* Semantic HTML
+* Proper React patterns
+* Server/client boundaries where appropriate
+* Environment variables for secrets
+* No hardcoded credentials
+* No unnecessary state
+* No unnecessary client components
+
+Do not over-engineer.
+
+---
+
+# 42. FINAL OUTPUT
+
+After implementation:
+
+1. Run the project.
+2. Check for build errors.
+3. Check TypeScript errors.
+4. Check broken links.
+5. Check console errors.
+6. Check mobile responsiveness.
+7. Check desktop responsiveness.
+8. Check animations.
+9. Check forms.
+10. Check navigation.
+11. Check SEO metadata.
+12. Fix everything you can find.
+
+Then provide a concise final summary containing:
+
+* What was built
+* Pages created
+* Main technologies
+* Any placeholders that need real Quillhive information
+* How to run the project
+* What should be connected before production
+
+Do not stop at "I created the files."
+
+The goal is a **complete, polished, production-ready Quillhive agency website**.
+
+---
+
+# 43. DESIGN NORTH STAR
+
+The final website should make someone visiting Quillhive think:
+
+> "These people understand both creativity and technology."
+
+It should communicate:
+
+**We don't just make things look good.
+We build, create, communicate, market, and support.**
+
+Quillhive should feel like a **creative technology hive** where different skills come together to create something greater.
+
+Make it memorable.
+
+Make it premium.
+
+Make it human.
+
+Make it feel like a real agency — not an AI-generated template.

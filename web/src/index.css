@@ -1,0 +1,124 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-navy: #242852;
+  --color-navy-light: #323875;
+  --color-brand-blue: #297fd5;
+  --color-brand-blue-soft: #629dd1;
+  --color-brand-blue-pale: #accbf9;
+  --color-brand-blue-deep: #4a66ac;
+  --color-brand-slate: #7f8fa9;
+  --color-brand-teal: #5aa2ae;
+  --color-brand-purple: #9454c3;
+  --color-brand-cyan: #3ebbf0;
+  --color-brand-coral: #ff6a5b;
+
+  --font-sans: 'Inter', system-ui, 'Segoe UI', Roboto, sans-serif;
+  --font-display: 'Sora', 'Inter', system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  color: var(--color-navy);
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+}
+
+/* Visible, on-brand focus ring for keyboard navigation */
+:focus-visible {
+  outline: 2px solid var(--color-brand-cyan);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+::selection {
+  background: var(--color-brand-cyan);
+  color: var(--color-navy);
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 28s linear infinite;
+}
+
+.marquee-pause:hover .animate-marquee {
+  animation-play-state: paused;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes blob-drift {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+  33% {
+    transform: translate(4%, 6%) scale(1.08);
+  }
+  66% {
+    transform: translate(-3%, -4%) scale(0.95);
+  }
+}
+
+.animate-blob {
+  animation: blob-drift 16s ease-in-out infinite;
+}
+
+.animate-blob-slow {
+  animation: blob-drift 22s ease-in-out infinite reverse;
+}
+
+/* Gradient headline text — falls back to solid navy/white if background-clip isn't supported */
+.text-gradient {
+  background: linear-gradient(
+    100deg,
+    var(--color-brand-cyan),
+    var(--color-brand-blue-soft) 45%,
+    var(--color-brand-purple)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-marquee,
+  .animate-float,
+  .animate-blob,
+  .animate-blob-slow {
+    animation: none;
+  }
+  html {
+    scroll-behavior: auto;
+  }
+}
